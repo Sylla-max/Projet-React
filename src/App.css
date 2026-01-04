@@ -52,14 +52,14 @@ nav {
 
 .container2{
   display: grid;
-  place-items: center;
-  grid-template-columns: repeat(4, 250px);
-  margin-top: 20px;
-  gap: 10px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 15px;
-  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 1000px;
+    place-items: center;
+    margin: 0 auto;
 }
 
 .pan-group{
@@ -130,17 +130,5 @@ nav {
     width: 90%;
     margin-bottom: 20px;
   }
-
-  .container2{
-    display: grid;
-    grid-template-columns: repeat(2,200px);
-    flex-shrink: 1;
-    gap: 1.5rem;
-      padding: 1rem;
-      width: 100%;
-  }
-
-  .card{
-    flex-wrap: wrap;
-  }
 }
+

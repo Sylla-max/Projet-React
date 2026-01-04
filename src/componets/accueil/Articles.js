@@ -19,7 +19,7 @@ export default function Articles({article}) {
      <div className="">
           <div>
             <div className="card shadow-sm">
-              <img className="bd-placeholder-img card-img-top" src={`/images/${article.img}`} alt={article.nom} style={{ height: "200px", width: "220px"}}
+              <img className="" src={`/images/${article.img}`} alt={article.nom} style={{ height: "200px", width: "220px"}}
             />
             <div className="card-body">
               <p className="card-title">{article.nom}</p>
