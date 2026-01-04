@@ -3,7 +3,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css';
 import Menu from './componets/navbar/menu';
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom"; 
+import { BrowserRouter as Router, Routes, Route, BrowserRouter} from "react-router-dom"; 
 import Accueil from './componets/accueil/accueil';
 import Contact from './componets/contact';
 import Dashboard from './componets/dash/dashboard';
@@ -26,7 +26,8 @@ function App() {
   }
 
   return (
-    <PanierProvider>
+
+      <PanierProvider>
       <Router>
         <Menu/>
 
