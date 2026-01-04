@@ -33,6 +33,8 @@ export default function Accueil(){
   return(
     <div className="container3">
      <div className="container1">
+      <img className="imagess" src="/sofa.png"/>
+      
       <div>
         <div className="present">
           <ul>
@@ -50,7 +52,7 @@ export default function Accueil(){
       </div>
          
 
-      <img className="imagess" src="/sofa.png"/>
+      
      </div>
 
      {articlesAAfficher && articlesAAfficher.length === 0 ? (

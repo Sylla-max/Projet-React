@@ -121,7 +121,14 @@ nav {
   .container1{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
 
+  .imagess{
+    width: 90%;
+    margin-bottom: 20px;
   }
 
   .container2{
@@ -131,8 +138,6 @@ nav {
     gap: 1.5rem;
       padding: 1rem;
       width: 100%;
-
-
   }
 
   .card{
