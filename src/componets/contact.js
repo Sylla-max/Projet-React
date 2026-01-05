@@ -14,7 +14,7 @@ export default function Contact(){
         <p>osmanakebesylla@gmail.com</p>
       </div>
 
-    <div className="mapp" style={{width: "800px", height: "350px", margin: "0 auto"}}>
+    <div className="mapp">
       <iframe 
         title="Carte ISGI AZLI OFPPT Marrakech" 
         width="100%" height="100%" style={{ border: "2px solid" }} 

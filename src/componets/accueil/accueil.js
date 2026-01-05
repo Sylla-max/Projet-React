@@ -47,7 +47,7 @@ export default function Accueil(){
           </ul>
       </div>
          <div className="input-group mt-4">
-          <input type="text" class="form-control" placeholder="Rechercher...." aria-label="Recipient’s username" aria-describedby="button-addon2" value={search} onChange={handleRecherche} />
+          <input type="text" class="iph form-control" placeholder="Rechercher...." aria-label="Recipient’s username" aria-describedby="button-addon2" value={search} onChange={handleRecherche} />
          </div>
       </div>
          
